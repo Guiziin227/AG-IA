@@ -15,8 +15,8 @@ func main() {
 		9,  // numCidades
 		6,  // tamanhoPopulacao
 		10, // geracoes
-		3,  // torneioK
-		0.7,
+		3,  // torneio
+		0.7, // taxaCruzamento
 		0.2, // taxaMutacao
 	)
 
