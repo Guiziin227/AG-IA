@@ -21,7 +21,6 @@ O `main.go` está configurado para executar em modo detalhado, imprimindo seleç
 
 - `+10` quando uma cidade maior aparece antes de uma menor
 - `+20` para cada par de ocorrências repetidas
-- `+20` para cidades fora do intervalo `1..9`
 
 A melhor solução possível é `1 2 3 4 5 6 7 8 9`, com fitness `0`.
 
