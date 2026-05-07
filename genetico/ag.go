@@ -68,8 +68,6 @@ func Executar(r *rand.Rand, numCidades, tamanhoPopulacao, geracoes, torneioK int
 
 			var paiRes, maeRes TorneioResultado
 			if len(candidatosPai) >= 2 {
-				// amostrar uma vez e usar a mesma amostra para escolher pai e mãe
-				// usar K mínimo = 3 para amostragem, mas não maior que candidatos disponíveis
 				k := torneioK
 				if k < 3 {
 					k = 3
