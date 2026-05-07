@@ -28,7 +28,7 @@ func Torneio(populacao [][]int, candidatos []int, torneioK int, r *rand.Rand) To
 			candidatos[i] = i
 		}
 	}
-	// garantir que o torneio amostre no mínimo 3 indivíduos quando possível
+	
 	if torneioK < 3 {
 		torneioK = 3
 	}
